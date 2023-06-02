@@ -21,10 +21,10 @@
 	</div>
 
 	<div class="row g-0 inside-nav">
-		<div class="d-flex justify-content-around crimson-pro">
-			<p>Home</p>
-			<p>Shop</p>
-		</div>
+		<nav class="d-flex justify-content-around crimson-pro">
+			<a href="/">Home</a>
+			<a href="/shop">Shop</a>
+		</nav>
 	</div>
 	<!-- make a div here that will host the home/away/shop PAGES -->
 	<!-- beige background, PAGES can fade in and out over -->
@@ -53,7 +53,7 @@
 	<!-- end here -->
 
 	<footer class="footer d-flex justify-content-center crimson-pro">
-		<p class="my-2 text-white">Sea Mead, 2022</p>
+		<p class="my-2 text-white">Sea Mead, 2023</p>
 	</footer>
 </section>
 
@@ -123,9 +123,14 @@
 	p {
 		font-size: 2em;
 	}
+	a {
+		color: white;
+		font-size: 2em;
+		text-decoration: none;
+	}
 	.footer {
 		background-color: black;
-		width: 100vw;
+		width: 100%;
 	}
 	@media (max-width: 868px) {
 		.pour-img {

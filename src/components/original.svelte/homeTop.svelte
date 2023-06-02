@@ -29,11 +29,7 @@
 		border-bottom: 1px solid black;
 		width: 80%;
 	}
-	.mead-table {
-		width: 40%;
-		border-radius: 5%;
-		box-shadow: 2px 2px 2px gray;
-	}
+
 	@media (max-width: 1468px) {
 		h1 {
 			font-size: 1.75rem;
